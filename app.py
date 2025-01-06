@@ -6,5 +6,6 @@ app = Flask(__name__)
 def home():
     return "Hello, Vercel!"
 
-if __name__ == '__main__':
+# Vercel 需要這個行來運行 Flask 應用
+if __name__ == "__main__":
     app.run() 
